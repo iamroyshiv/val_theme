@@ -1,0 +1,96 @@
+body
+{
+    padding:0px;
+    margin-left:0PX;
+    background:url('beautiful-blooming-blossom-1046177.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+h1
+{
+    text-align:center;  
+    color:rgba(235,58,98,0);
+    text-shadow:10px 2px 8px black;
+    font-size:72px;
+    font-family:cursive;
+}
+
+#imgdiv
+{
+    
+  
+}
+
+#image
+{
+    opacity:1;
+    width:350px;
+    height:400px;
+    position:relative;
+    left:500px;
+    border-radius:200px;
+}
+#crush1
+{
+    border:none;
+    border-bottom: 2px black solid;
+    width:200px;
+    height:30px;
+    position:relative;
+    left:-100px;
+    top:-300px;
+    background:rgba(50,58,98.1);
+    border-radius:10px;
+    text-align:center;
+    font-weight:bold;
+    font-size:15px;
+}
+
+ #boyimg
+{
+    position:relative;
+    left:;
+    top:;
+    width:100px;
+    height:150px;
+    
+}
+#from
+{
+    text-align:center;
+    top:-300px;
+    position:relative;
+    left:100px;
+    top:-200px;
+    font-weight:bold;
+    font-size:36px;
+}
+#crush2
+{
+    border:none;
+    border-bottom: 2px black solid;
+    width:200px;
+    height:30px;
+    position:relative;
+    top:-300px;
+    left:300px;
+    background:rgba(50,58,98.1);
+    border-radius:10px;
+    text-align:center;
+    font-weight:bold;
+    font-size:15px;
+}
+#girlimg
+{
+    width:100px;
+    height:200px;
+}
+
+#calculate
+{
+    font-weight:bold;
+    font-size:15px;
+    width:150px;
+    height:50px;
+    background:rgba(100,58,98,1);
+}

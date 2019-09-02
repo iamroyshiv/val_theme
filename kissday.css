@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:url(background-bar-board-1253184.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    height: 800px;
+}
+header{
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    background:rgba(253, 249, 249, 0);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin:0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+}
+nav ul li{
+    list-style:none;
+
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin:10px 0;
+    font-size: 16px;
+
+}
+
+.active{
+    background:rgba(215, 4, 235, 0.863); 
+}
+ul li a:hover{
+    color: yellow;
+    background-color: black;
+    transition: 0.5s;
+
+
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 5px;
+  }
+  h1{
+      font-size: 100px;
+      font-family:Kleymissky Regular;
+  }
+  h2{
+      font-size: 80px;
+      color:red;
+  }
+  p{
+      font-size: 30px;
+      color: red;
+      padding-top: 20px;
+  }
+  
+  .row {
+      border:1px  white solid;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;     
+    margin-left:2%;
+    margin-right:2%;                
+  }
+  .column {
+    flex: 25%;
+    max-width: 33%;
+    padding-left:1%;
+    margin-left:0px;
+  }
+  
+  .column img {
+    margin-top: 5px;
+    vertical-align:bottom ;
+  }
+  
+  @media screen and (max-width: 1222px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 25%;
+      max-width: 25%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+@media(max-width:1200px){
+    header{
+        margin: 0px;
+    }
+}
+@media(max-width:768px){
+    .menu-toggle{
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;  
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #069370;
+
+    }
+    .menu-toogle:before{
+        content: '\fc09';
+        font-family:fontAwesome;
+        line-height: 40px;
+
+    }
+    nav{
+        display: none;
+    }
+}
